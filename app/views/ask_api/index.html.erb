@@ -1,9 +1,25 @@
 <html>
 <head>
 	<title>imazon sandbox</title>
+	<style type="text/css">
+	body{
+		font-family: sans-serif;
+	}
+	pre {
+		white-space: pre-wrap;
+  		background-color: #EAEAEA;
+  		padding: 6px;
+	}
+	</style>
 </head>
 <body>
-<p><%= JSON.parse(@imazon_iso.body) %></p>
-<p><%= JSON.parse(@umd_iso.body) %></p>
+	<h2>imazon iso:</h2>
+<pre><%= JSON.parse(@imazon_iso.body) %></pre>
+	<h2>imazon wdpa:</h2>
+<pre><%= JSON.parse(@imazon_wdpa.body) %></pre>
+	<h2>imazon use:</h2>
+<pre><%= JSON.parse(@imazon_use.body) %></pre>
+	<h2>umd iso:</h2>
+<pre><%= JSON.parse(@umd_iso.body) %></pre>
 </body>
 </html>
