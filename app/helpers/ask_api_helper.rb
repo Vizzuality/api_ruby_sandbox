@@ -1,0 +1,2 @@
+module AskApiHelper
+end
