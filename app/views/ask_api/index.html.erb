@@ -15,14 +15,14 @@
 <body>
 	<h1>Examples for <a href="https://github.com/Vizzuality/api_ruby_sandbox">GFW API'S RUBY CLIENT SANDBOX</a></h1>
 	<h2>imazon iso:</h2>
-	<pre><%= @imazon_iso %></pre>
+	<pre><%= JSON.parse(@imazon_iso.body) %></pre>
 	<h2>imazon wdpa:</h2>
-	<pre><%= @imazon_wdpa %></pre>
+	<pre><%= JSON.parse(@imazon_wdpa.body) %></pre>
 	<h2>imazon use:</h2>
-	<pre><%= @imazon_use %></pre>
+	<pre><%= JSON.parse(@imazon_use.body) %></pre>
 	<h2>imazon geojson:</h2>
-	<pre><%= @imazon_geojson %></pre>
+	<pre><%= JSON.parse(@imazon_geojson.body) %></pre>
 	<h2>umd iso:</h2>
-	<pre><%= @umd_iso %></pre>
+	<pre><%= JSON.parse(@umd_iso.body) %></pre>
 </body>
 </html>

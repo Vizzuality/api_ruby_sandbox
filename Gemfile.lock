@@ -1,7 +1,7 @@
 PATH
   remote: /Library/WebServer/Documents/prj/gfw-ruby-client-library
   specs:
-    gfw_api_client (0.1.0)
+    gfw_api_client (0.1.1)
       typhoeus (~> 0.7)
 
 GEM
